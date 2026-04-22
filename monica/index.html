@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>¿Qué tanto amo a mi moni?</title>
+    <style>
+        body {
+            background-image: url('imagenes/fondo.jpg'); /* Imagen de fondo desde carpeta */
+            background-size: cover;
+            background-position: center;
+            width: 1080px;
+            height: 720px;
+            font-style: italic; /* letra cursiva */
+            margin: 0;
+            padding: 0;
+            color: black; /* color de letra negro */
+        }
+        h1 {
+            text-align: center;
+            color: black;
+        }
+        .contenedor {
+            display: flex;
+            justify-content: center; /* centra todo el bloque */
+            align-items: flex-start;
+            margin-top: 50px;
+            gap: 40px; /* separación entre fotos y texto */
+        }
+        .galeria {
+            display: flex;
+            flex-direction: column; /* para que la imagen extra quede debajo */
+            align-items: center; /* centra horizontalmente */
+            gap: 30px; /* separación entre fotos */
+        }
+        .galeria-fila {
+            display: flex;
+            justify-content: center; /* centra las 3 imágenes */
+            gap: 30px;
+        }
+        .galeria img {
+            width: 250px;
+            height: auto;
+            border: 2px solid black;
+        }
+        .texto {
+            max-width: 450px;
+            font-size: 30px;
+            text-align: justify;
+        }
+        .parrafo-medio {
+            font-size: 20px; /* tamaño medio */
+            text-align: center;
+            margin-top: 10px;
+        }
+        .imagen-con-parrafo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>¿Qué tanto amo mucho a mi moni?</h1>
+    <div class="contenedor">
+        <div class="galeria">
+            <div class="galeria-fila">
+                <img src="imagenes/foto.jpeg" alt="Foto 1">
+                <img src="imagenes/foto1.jpeg" alt="Foto 2">
+                <img src="imagenes/foto3.jpeg" alt="Foto 3">
+            </div>
+            <!-- Imagen 4 con párrafo debajo -->
+            <div class="imagen-con-parrafo">
+                <img src="imagenes/foto4.jpeg" alt="Foto 4">
+                <p class="parrafo-medio">
+                    Quien no mataria por si quiera besarla o abrazarla con esos ojos q te penetran y dios te llevan a tocar el cielo, esos labios q fack quisiera probarlos y sentirlos y con esas curvas dios, ojala un dia sentirlos y apreciarlos que te hacen sentir de todo, es inteligente guapa y muy sexy hay q ser sincero pero eso lo queda verlo de a lejos eres como una obra de arte me da miedo tocarla, pero regresando el tema eres muy importante para mi eres mi poquito de todo te amo te quiero con mucho cariño aprecio y respeto edym 
+                </p>
+            </div>
+        </div>
+        <div class="texto">
+            <p>
+                moni monica corazon mi amor como estas mi moni espero que siempre de bella aqui siendo un poco cursi hablando de vos un rato jajajajaj espero que estes bien chaparra y nada te quiero decir que te amo con todo el alma eres la chica que todos quieren pero nadie puede tener eh quien viera esta preciosa, quien mataria por estar a su lado
+            </p>
+        </div>
+    </div>
+</body>
+</html>
